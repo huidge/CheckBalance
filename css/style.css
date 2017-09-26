@@ -239,7 +239,7 @@ a {
 }
 
 .weui-btn_primary {
-	background-color: #1aad19
+	background-color: #000
 }
 
 .weui-btn_primary:not(.weui-btn_disabled):visited {
@@ -302,13 +302,14 @@ a {
 }
 
 .weui-btn_plain-primary {
-	color: #1aad19;
-	border: 1px solid #1aad19
+	color: #000;
+	border: 1px solid #000
 }
 
 .weui-btn_plain-primary:not(.weui-btn_plain-disabled):active {
 	color: rgba(26,173,25,.6);
 	border-color: rgba(26,173,25,.6)
+
 }
 
 .weui-btn_plain-primary:after {
@@ -2717,7 +2718,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 
 .weui-slider__track {
 	height: 2px;
-	background-color: #1aad19;
+	background-color: #000;
 	width: 0
 }
 
@@ -6338,7 +6339,7 @@ button.weui-btn_disabled {
 	height: 60px;
 	line-height: 60px;
 	color: #fff;
-	background: #1aad19;
+	background: #000;
 	background-image: -webkit-gradient(linear,50% 0,0 100%,from(transparent),color-stop(.5,transparent),color-stop(.5,#f8f8f8),to(#f8f8f8)),-webkit-gradient(linear,50% 0,100% 100%,from(transparent),color-stop(.5,transparent),color-stop(.5,#f8f8f8),to(#f8f8f8));
 	background-size: 10px 10px;
 	background-repeat: repeat-x;
@@ -6443,7 +6444,7 @@ button.weui-btn_disabled {
 }
 
 .f-picker .weui-picker__hd .weui-picker__action[data-action=select] {
-	color: #1aad19
+	color: #000
 }
 
 .f-picker .weui-picker__hd .weui-picker__action[data-action=cancel] {
@@ -6460,11 +6461,11 @@ button.weui-btn_disabled {
 }
 
 .f-picker .weui-picker__indicator:before {
-	border-top: medium solid #1aad19
+	border-top: medium solid #000
 }
 
 .f-picker .weui-picker__indicator:after {
-	border-bottom: medium solid #1aad19
+	border-bottom: medium solid #000
 }
 
 .f-picker-divider {
